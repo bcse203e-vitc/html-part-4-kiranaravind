@@ -8,24 +8,24 @@
 <body>
     <h2>Event Registration Form</h2>
 
-<form>
+<form action="/reg" method="post">
 
     <label for="fullname"><b>Full Name</b></label>
-    <input type="text" id="fullname" name="fullname" required>
+    <input type="text" id="fullname" name="fullname">
 
     <label for="email"><b>Email</b></label>
-    <input type="email" id="email" name="email" required>
+    <input type="email" id="email" name="email">
 
     <label for="phone"><b>Phone Number</b></label>
-    <input type="tel" id="phone" name="phone" required>
+    <input type="tel" id="phone" name="phone">
 
     <br><label><b>Gender</b></label><br>
     <input type="radio" id="male" name="gender" value="male">
     <label for="male">Male</label><br>
     <input type="radio" id="female" name="gender" value="female">
     <label for="female">Female</label><br>
-    <label for="age-group"><b>Age Group</b></label>
-    <select id="age-group" name="age-group">
+    <label for="agegroup"><b>Age Group</b></label>
+    <select id="agegroup" name="age-group">
         <option value="">Select Age Group</option>
         <option value="under-18">Under 18</option>
         <option value="18-24">18-24</option>
@@ -35,11 +35,11 @@
     <br>
     <br>
     <label><b>Topics of Interest</b></label><br>
-    <input type="checkbox" id="topic1" name="topics[]" value="topic1">
+    <input type="checkbox" id="topic1" value="topic1">
     <label for="topic1">Dancing</label><br>
-    <input type="checkbox" id="topic2" name="topics[]" value="topic2">
+    <input type="checkbox" id="topic2" value="topic2">
     <label for="topic2">Acting</label><br>
-    <input type="checkbox" id="topic3" name="topics[]" value="topic3">
+    <input type="checkbox" id="topic3" value="topic3">
     <label for="topic3">Music</label><br>
 
     <label for=""><b>Additional Comments</b></label><br>
