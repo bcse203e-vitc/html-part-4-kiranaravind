@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23BPS1166</title>
+</head>
+<body>
+     <h2>Website Feedback Form</h2>
+
+    <form action="#" method="POST">
+        <label for="n">Name:</label><br>
+        <input type="text" id="n" name="n" ><br><br>
+
+        <label for="e">Email:</label><br>
+        <input type="email" id="e" name="e" ><br><br>
+
+        <label for="r">Rate the Website (1-5 stars):</label><br>
+        <input type="radio" id="r1" name="r">
+        <label for="r1">1</label>
+        <input type="radio" id="r2" name="r">
+        <label for="r2">2</label>
+        <input type="radio" id="r3" name="r">
+        <label for="r3">3</label>
+        <input type="radio" id="r4" name="r">
+        <label for="r4">4</label>
+        <input type="radio" id="r5" name="r">
+        <label for="r5">5</label><br><br>
+
+        <label for="f">Type of Feedback:</label><br>
+        <select id="f" name="f">
+            <option value="s">Suggestion</option>
+            <option value="b">Bug Report</option>
+            <option value="c">Compliment</option>
+        </select><br><br>
+
+        <label for="fb">Feedback:</label><br>
+        <textarea id="fb" rows="4" cols="50" required></textarea><br><br>
+
+        <label>Would you recommend us?</label><br>
+        <input type="radio" id="y" name="y" value="Yes">
+        <label for="y">Yes</label>
+        <input type="radio" id="n" name="n" value="No">
+        <label for="n">No</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
